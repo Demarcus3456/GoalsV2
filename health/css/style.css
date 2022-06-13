@@ -6,10 +6,7 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
     font-family: teko;
     width: 100%;
     min-height: 100vh;
@@ -24,6 +21,12 @@ body {
 
 /* Vision Borad */
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .wrapper {
     width: 80%;
