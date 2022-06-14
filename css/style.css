@@ -8,8 +8,12 @@
 
 .agreement {
     border: 2px solid black;
-    background-color: white;
+    color: white;
     text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url(https://media2.giphy.com/media/UxTZDNv0Zej4s/giphy.gif?cid=ecf05e47j5gsofi2s6u8as6wvhji1re5lp1646h2ci87rm5z&rid=giphy.gif&ct=g);
 }
 
 /* Steps */
