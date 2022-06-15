@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color: #E3FDFD;
+}
+
+h1 {
+    text-align: center;
+    border: 2px solid #e3fdfd;
+    background: rgb(177, 214, 42);
+    width: 100%;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+/* Self Note */
+
+.note-bar {
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+}
+
+/* Mind Set */
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Approach Anxeity */
+
+.approach {
+    background-color: #CBF1F5;
+}
