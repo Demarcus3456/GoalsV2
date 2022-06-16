@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
+    font-size: 30px;
 }
 
 body {
@@ -10,10 +11,8 @@ body {
 }
 
 h1 {
-    text-align: center;
     border: 2px solid #e3fdfd;
     background: rgb(177, 214, 42);
-    width: 100%;
 }
 
 img {
@@ -21,12 +20,49 @@ img {
     height: auto;
 }
 
+iframe {
+    width: 100%;
+    height: 600px;
+}
 
+.intro {
+    width: 100%;
+    text-align: center;
+}
 
+.reason {
+    background-color: lightcoral;
+}
 
+.task-box {
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
+.challenge {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+}
 
+.frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Self Note */
 
@@ -39,15 +75,14 @@ img {
 
 /* Mind Set */
 
-.container-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 
 /* Approach Anxeity */
 
 .approach {
     background-color: #CBF1F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
