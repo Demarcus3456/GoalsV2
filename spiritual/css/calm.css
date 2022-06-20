@@ -147,3 +147,8 @@ iframe {
 .sunday {
     background-color: pink;
 }
+
+p {
+    color: black;
+    opacity: 100%;
+}

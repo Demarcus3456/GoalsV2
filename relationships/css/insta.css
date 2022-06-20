@@ -7,4 +7,9 @@
 
 body {
     background-color: gold;
+    text-align: center;
+}
+
+.title {
+    background-color: red;
 }
