@@ -21,7 +21,7 @@ iframe {
 /* Effects */
 
 .rain {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-image: url(../images/rain.png);
     animation: rain .3s linear infinite;
@@ -80,4 +80,70 @@ iframe {
     104% {
         opacity: 0;
     }
+}
+
+/* Chart */
+
+.tablebg {
+    background-color: white;
+    opacity: 70%;
+}
+
+/* Meditaion */
+
+.notes {
+    opacity: 70%;
+    background-color: white;
+    color: blue;
+    height: 100%;
+    margin-bottom: 150px;
+}
+
+.meditaion {
+    margin-top: 150px;
+}
+
+/* Charkras */
+
+.monday,
+.tuseday,
+.wenseday,
+.thrusday,
+.friday,
+.saturday,
+.sunday {
+    opacity: 70%;
+}
+
+.charkra h2 {
+    font-family: 'Gabriola';
+}
+
+.monday {
+    background-color: red;
+
+}
+
+.tuseday {
+    background-color: orange;
+}
+
+.wenseday {
+    background-color: yellow;
+}
+
+.thrusday {
+    background-color: green;
+}
+
+.friday {
+    background-color: blue;
+}
+
+.saturday {
+    background-color: purple;
+}
+
+.sunday {
+    background-color: pink;
 }
