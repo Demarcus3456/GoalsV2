@@ -8,3 +8,16 @@
 body {
     background-color: lightseagreen;
 }
+
+/* Menu */
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul li {
+    display: inline-block;
+}
