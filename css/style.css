@@ -48,4 +48,15 @@
     margin-left: auto;
 }
 
-/* Menu */
+@media (max-width: 700px) {
+    .step-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .step-2,
+    .step-4 {
+        margin-left: 0;
+    }
+}
