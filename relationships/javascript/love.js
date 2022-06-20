@@ -1,10 +1,9 @@
-let number = document.getElementById("number");
-let counter = 0;
-setInterval(() => {
-    if (counter == 0) {
-        clearInterval();
-    } else {
-        counter += 1;
-        number.innerHTML = counter + "%"
-    }
-}, 30);
+// Menu
+
+function openFunction() {
+    document.getElementById("menu").style.width = "300px";
+}
+
+function closeFunction() {
+    document.getElementById("menu").style.width = "0px";
+}

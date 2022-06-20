@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
-    font-size: 30px;
 }
 
 body {
     background-color: #E3FDFD;
+    font-size: 30px;
 }
 
 h1 {
@@ -45,9 +45,13 @@ iframe {
     justify-content: space-evenly;
 }
 
+.report {
+    margin-left: 70px;
+}
+
 .challenge {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     gap: 90px;
 }
@@ -63,6 +67,46 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Menu*/
+.sidemenu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 3px;
+    background-color: #222;
+    z-index: 1;
+    padding-top: 100px;
+    overflow-x: hidden;
+}
+
+.sidemenu a {
+    padding: 8px 8px 8px 64px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #999;
+    display: block;
+}
+
+.sidemenu a:hover {
+    color: white;
+}
+
+.sidemenu .closebtn {
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 32px;
+}
+
+#mainbox {
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+
 }
 
 /* Self Note */
