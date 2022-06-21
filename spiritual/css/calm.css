@@ -17,6 +17,7 @@ body {
 
 iframe {
     position: relative;
+    width: 100%;
 }
 
 /* Effects */
