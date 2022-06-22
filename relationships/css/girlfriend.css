@@ -8,11 +8,12 @@
 body {
     background-color: #E3FDFD;
     font-size: 30px;
+    text-align: center;
 }
 
 h1 {
     border: 2px solid #e3fdfd;
-    background: rgb(177, 214, 42);
+    background: rgb(177, 214, 47);
 }
 
 img {
@@ -27,7 +28,6 @@ iframe {
 
 .intro {
     width: 100%;
-    text-align: center;
 }
 
 .reason {
@@ -36,7 +36,9 @@ iframe {
 
 .task-box {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .bottom {
@@ -49,11 +51,10 @@ iframe {
     margin-left: 70px;
 }
 
-.challenge {
+.slide {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    gap: 90px;
+    align-items: center;
 }
 
 .frame {
@@ -173,14 +174,4 @@ svg {
     100% {
         stroke-dashoffset: 472;
     }
-}
-
-/* Approach Anxeity */
-
-.approach {
-    background-color: #CBF1F5;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }

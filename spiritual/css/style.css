@@ -11,12 +11,13 @@ body {
     width: 100%;
     min-height: 100vh;
     background-color: #C2DED1;
+    text-align: center;
 }
 
 /* Title */
 
 .title {
-    border: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 /* Vision Borad */

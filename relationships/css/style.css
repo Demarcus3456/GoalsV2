@@ -10,14 +10,14 @@ body {
     font-family: teko;
     width: 100%;
     min-height: 100vh;
-    background-color: #FCECDD;
+    background-color: #a81818;
+    text-align: center;
 }
 
 /* Title */
 
 .title {
-    border: 1px solid black;
-    text-align: center;
+    border-bottom: 1px solid black;
 }
 
 /* Vision Borad */
