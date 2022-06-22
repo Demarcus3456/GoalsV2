@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+
+    font-family: teko;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FCECDD;
+    text-align: center;
+}
