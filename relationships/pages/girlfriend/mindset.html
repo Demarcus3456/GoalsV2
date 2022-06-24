@@ -44,69 +44,17 @@
             <h1>Mindset</h1>
             <p class="reason">Main goal is to get my mind back into a growth mindset</p>
         </div>
-        <div class="task-box">
-            <div class="task">
 
-                <h2>Task for the day</h2>
-                <ul>
-                    <li>Start reading</li>
-                </ul>
-                <h2>Task for tomorrow</h2>
-                <ul>
-                    <li>Do more</li>
-                </ul>
-            </div>
-        </div>
-        <div class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Z2IbsvuEmpU"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-
-
-        <div class="bottom">
-            <div>
-                <div class="regular">
-                    <h2>Regular Challenge</h2>
-                    <p>Dummy text</p>
-                </div>
-                <div class="bonus">
-                    <h2>Bonus</h2>
-                    <p>Dummy text</p>
-                </div>
-            </div>
-
-        </div>
     </div>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Z2IbsvuEmpU" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
     </div>
 
     <div class="frame">
         <iframe src="../../pdf/mindset.pdf" title="MindSet"></iframe>
-        <h2>Notes</h2>
-        <p>dummy notes</p>
-
-        <div class="skill">
-            <div class="outer">
-                <div class="inner">
-                    <div id="number">
-                        0%
-                    </div>
-                </div>
-            </div>
-
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
-                <defs>
-                    <linearGradient id="GradientColor">
-                        <stop offset="0%" stop-color="#e91e63" />
-                        <stop offset="100%" stop-color="#673ab7" />
-                    </linearGradient>
-                </defs>
-                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
-            </svg>
-
-
-        </div>
     </div>
 
     <div class="complete">
@@ -137,9 +85,57 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-
-
         </div>
+
+        <div class="move">
+            <div class="skill">
+                <div class="outer">
+                    <div class="inner">
+                        <div id="number">
+                            0%
+                        </div>
+                    </div>
+                </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                    <defs>
+                        <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+            </div>
+        </div>
+
+
+
+        <div class="modal-container">
+            <div class="modal">
+                <button class="modal__btn">&times;</button>
+                <h2 class="modal__title">Title bere</h2>
+                <p class="modal__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam mollitia
+                    voluptatibus accusantium vel sequi veniam dolorem neque aspernatur reiciendis, unde ducimus sed sunt
+                    dolorum blanditiis fugit possimus minus, repellendus dolores aliquid?</p>
+            </div>
+        </div>
+        <div class="form-container">
+            <h1>Notes</h1>
+            <h3>Add a New Note:</h3>
+            <form>
+                <label for="title">Title
+                    <input type="text" id="title" placeholder="Enter a note title.">
+                </label>
+                <label for="note">Note
+                    <textarea type="text" id="note" cols="30" rows="10" placeholder="Enter note text."></textarea>
+                </label>
+                <input type="submit">
+            </form>
+        </div>
+        <div class="note-container">
+        </div>
+
 
 
 
