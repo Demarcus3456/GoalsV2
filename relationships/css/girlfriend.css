@@ -175,219 +175,40 @@ svg {
     }
 }
 
-.modal-container {
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    background-color: rgba(18, 22, 20, .2);
+/* Notes */
+
+#app {
     display: grid;
-    place-items: center;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 250ms ease-out;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding: 24px;
+    gap: 24px;
 }
 
-.modal-container.active {
-    opacity: 1;
-    pointer-events: all;
-}
-
-.modal-container .modal {
-    max-width: 700px;
-    max-height: 80vh;
-    overflow: auto;
-    background-color: white;
-    border: 3px solid #121614;
-    padding: 2rem;
-    position: relative;
-}
-
-.modal-container .modal .modal__title {
-    font-size: 2rem;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-    max-width: 85%;
-}
-
-.modal-container .modal .modal__btn {
-    position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
-    color: #121614;
-    font-size: 2rem;
-    line-height: 2rem;
-    height: 40px;
-    width: 40px;
-    cursor: pointer;
-    border: 3px solid #121614;
-    border-radius: 50%;
-    background-color: white;
-    box-shadow: 3px 5px 8px 2px rgba(18, 22, 20, .2);
-    transition: all 250ms ease-out;
-}
-
-.modal-container .modal .modal__btn:hover,
-.modal-container .modal .modal__btn:focus {
-    outline: none;
-    border: 3px solid #a4b1aa;
-    color: #a4b1aa;
-    box-shadow: none;
-}
-
-.form-container {
-    max-width: 1000px;
-    margin: 1rem auto;
-}
-
-.form-container h1 {
-    font-size: 3rem;
-    text-align: center;
-}
-
-.form-container h3 {
-    color: #33ca7f;
-    text-align: center;
-}
-
-.form-container .message {
-    margin: 1rem 0 1.5rem;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-}
-
-.form-container .message.success-message {
-    background-color: #33ca7f;
-    box-shadow: 2px 4px 7px 2px rgba(51, 202, 127, .2);
-}
-
-.form-container .message.remove-message {
-    background-color: #446df6;
-    box-shadow: 2px 4px 7px 2px rgba(68, 109, 246, .2);
-}
-
-.form-container .message.alert-message {
-    background-color: #e01541;
-    box-shadow: 2px 4px 7px 2px rgba(224, 21, 65, .2);
-}
-
-form {
-    display: grid;
-    grid-gap: 1rem;
-    margin: 1rem 0;
+.note {
+    height: 200px;
     width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+    resize: none;
+    font-family: sans-serif;
+    font-size: 16px;
 }
 
-form label,
-form input,
-form textarea {
-    font-family: inherit;
-    font-size: inherit;
-}
-
-form [for="title"],
-form [for="note"] {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 1rem;
-    grid-gap: 1rem;
-    background-color: rgba(164, 177, 170, .2);
-    font-weight: bold;
-}
-
-form [for="title"] input,
-form [for="note"] input,
-form [for="title"] textarea,
-form [for="note"] textarea {
-    flex: 1 1 80%;
-    border: 3px solid #a4b1aa;
-    padding: 0.5rem;
-    color: #121614;
-    width: 100%;
-}
-
-form [for="title"] input:focus,
-form [for="note"] input:focus,
-form [for="title"] textarea:focus,
-form [for="note"] textarea:focus {
-    outline: 2px solid #121614;
-}
-
-form [type="submit"] {
-    background-color: #33ca7f;
-    box-shadow: 3px 5px 8px 2px rgba(51, 202, 127, .2);
-    border: 3px solid transparent;
-    font-size: 1.3rem;
-    color: white;
-    padding: 0.5rem;
-    cursor: pointer;
-    transition: all 250ms ease-in-out;
-}
-
-form [type="submit"]:hover,
-form [type="submit"]:focus {
+.add-note {
+    height: 200px;
+    border: none;
     outline: none;
-    box-shadow: none;
-    border: 3px solid rgba(18, 22, 20, .5);
-}
-
-.note-container {
-    margin: 2rem auto 1rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    grid-gap: 1.5rem;
-}
-
-.note-container .note {
-    border: 3px solid rgba(68, 109, 246, .2);
-    padding: 1.5rem;
-    transition: all 250ms ease-in-out;
-}
-
-.note-container .note__title {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-}
-
-.note-container .note__body {
-    overflow: hidden;
-    max-height: 8rem;
-    -webkit-box-orient: vertical;
-    display: -webkit-box;
-    text-overflow: ellipsis;
-    -webkit-line-clamp: 4;
-}
-
-.note-container .note__btns {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 0.5rem;
-}
-
-.note-container .note__btns .note__btn {
-    font-family: inherit;
-    font-size: inherit;
-    padding: 0.5rem 1rem;
-    margin-top: 1rem;
-    color: white;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 120px;
+    color: rgba(0, 0, 0, 0.5);
     cursor: pointer;
-    transition: all 250ms ease-out;
+    transition: background 0.2s;
 }
 
-.note-container .note__btns .note__btn:focus,
-.note-container .note__btns .note__btn:hover {
-    box-shadow: none;
-}
-
-.note-container .note__btns .note__view {
-    background-color: #446df6;
-    box-shadow: 3px 5px 8px 2px rgba(68, 109, 246, .2);
-}
-
-.note-container .note__btns .note__delete {
-    background-color: #e01541;
-    box-shadow: 3px 5px 8px 2px rgba(224, 21, 65, .2);
+.add-note:hover {
+    background: rgba(0, 0, 0, 0.2);
 }
