@@ -20,6 +20,12 @@ iframe {
     width: 100%;
 }
 
+p {
+    color: black;
+    opacity: 100%;
+}
+
+
 /* Effects */
 
 .rain {
@@ -148,11 +154,6 @@ iframe {
 
 .sunday {
     background-color: pink;
-}
-
-p {
-    color: black;
-    opacity: 100%;
 }
 
 @media (min-width: 450px) {
