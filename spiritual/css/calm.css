@@ -17,6 +17,7 @@ body {
 
 iframe {
     position: relative;
+    width: 100%;
 }
 
 /* Effects */
@@ -152,4 +153,10 @@ iframe {
 p {
     color: black;
     opacity: 100%;
+}
+
+@media (min-width: 450px) {
+    iframe {
+        width: 75%;
+    }
 }
