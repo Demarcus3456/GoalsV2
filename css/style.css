@@ -4,6 +4,36 @@
     box-sizing: border-box;
 }
 
+button {
+    border-radius: 30px;
+    width: 110px;
+}
+
+.health:hover {
+    background-color: green;
+    color: white
+}
+
+.love:hover {
+    background-color: red;
+    color: white
+}
+
+.carrer:hover {
+    background-color: blue;
+    color: white;
+}
+
+.money:hover {
+    background-color: purple;
+    color: white;
+}
+
+.spirit:hover {
+    background-color: yellow;
+    color: black;
+}
+
 /* Agreement */
 
 .agreement {
@@ -21,11 +51,9 @@
 .step-container {
     display: flex;
     flex-direction: column;
-    padding: 50px;
-    background: rgb(219, 168, 168);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+    position: relative;
+    top: -900px;
+    margin-bottom: -800px
 }
 
 .step-1,
@@ -38,7 +66,6 @@
     height: 200px;
     font-weight: bold;
     font-size: 22px;
-    background-image: url(https://media.giphy.com/media/Gx6mwitQRDATwThrFB/giphy-downsized-large.gif);
     background-size: cover;
     color: white;
 }
@@ -46,6 +73,22 @@
 .step-2,
 .step-4 {
     margin-left: auto;
+}
+
+.step-1 {
+    background-image: url(https://media.giphy.com/media/Gx6mwitQRDATwThrFB/giphy-downsized-large.gif);
+}
+
+.step-2 {
+    background-image: url(https://media.giphy.com/media/rkM07YUiJCx8lJCxVt/giphy.gif);
+}
+
+.step-3 {
+    background-image: url(https://media.giphy.com/media/FMsbSSjEe0N6zH7K7x/giphy-downsized-large.gif);
+}
+
+.step-4 {
+    background-image: url(https://media.giphy.com/media/3ohhwi8j3zjpDMhvxK/giphy.gif);
 }
 
 @media (max-width: 700px) {
