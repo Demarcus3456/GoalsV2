@@ -102,4 +102,8 @@ button {
     .step-4 {
         margin-left: 0;
     }
+    
+    .step-container {
+        top: -700px;
+    }
 }
