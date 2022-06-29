@@ -53,7 +53,7 @@ button {
     flex-direction: column;
     position: relative;
     top: -900px;
-    margin-bottom: -800px
+    margin-bottom: -800px;
 }
 
 .step-1,
@@ -102,4 +102,11 @@ button {
     .step-4 {
         margin-left: 0;
     }
+
+    .step-container {
+        margin-top: 200px;
+        margin-bottom: -900px;
+    }
+
+
 }

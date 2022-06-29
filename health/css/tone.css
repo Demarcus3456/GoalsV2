@@ -607,6 +607,14 @@ li {
   display: inline-block;
 }
 
+img {
+  transition: .2s;
+}
+
+img:hover {
+  transform: scale(1.6);
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
