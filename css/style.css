@@ -104,6 +104,7 @@ button {
     }
     
     .step-container {
-        top: -700px;
+        margin-top: 200px;
+        margin-bottom: -900px;
     }
 }
