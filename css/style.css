@@ -9,6 +9,11 @@ button {
     width: 110px;
 }
 
+.hidden{
+    display: none;
+}
+
+
 .health:hover {
     background-color: green;
     color: white
@@ -38,6 +43,8 @@ button {
 
 .agreement {
     border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
     color: rgb(219, 168, 168);
     text-align: center;
     font-size: 22px;
@@ -67,7 +74,7 @@ button {
     font-weight: bold;
     font-size: 22px;
     background-size: cover;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .step-2,
